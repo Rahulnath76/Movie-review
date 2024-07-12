@@ -23,7 +23,7 @@ export default function Home(){
             </div>
 
            {
-            data ? (data.Response == "True" ? <MovieDetails data = {data}/> : <div className='text-center text-xl p-4 '> Cannot find the movie. Please try another one</div>) : <div></div>
+            data ? (data.Response == "True" ? <MovieDetails data = {data}/> : <div className='text-center text-xl p-4'> Cannot find the movie. Please try another one</div>) : <div></div>
            }
 
         </div>
